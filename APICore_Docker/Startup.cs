@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Core_DomainModel;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Npgsql;
+using Swashbuckle.AspNetCore.Swagger;
 
-namespace APICore_Docker
+namespace Core_APIService
 {
     public class Startup
     {
@@ -26,9 +20,22 @@ namespace APICore_Docker
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            //services.AddDbContext<ApplicationDbContext>(options =>
-            //   options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
+            #region Swagger Generation
+            services.AddSwaggerGen(s => { s.SwaggerDoc("v1", new Info { Title = "Core API", Description = "Core API Swagger Integration" }); });
+            #endregion
+
+            #region DB Connection String
+            services.Configure<AppSettingsModel>(Configuration.GetSection("ConnectionStrings"));
+            #endregion
+
+            #region DAL and BAL Dependncy Injection
+            DALDependnecies.RegisterDALDependnecies(services);
+            BALDependnecies.RegisterBALDependnecies(services);
+            #endregion
 
         }
 
@@ -46,6 +53,11 @@ namespace APICore_Docker
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            #region Swagger UI Integration
+            app.UseSwagger();
+            app.UseSwaggerUI(s => { s.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Integration"); });
+            #endregion
         }
     }
 }

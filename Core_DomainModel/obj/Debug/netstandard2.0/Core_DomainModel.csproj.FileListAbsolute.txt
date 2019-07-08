@@ -6,3 +6,12 @@ C:\Work\BackEnd\APICore_Docker\Core_DomainModel\obj\Debug\netstandard2.0\Core_Do
 C:\Work\BackEnd\APICore_Docker\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.pdb
 C:\Work\BackEnd\APICore_Docker\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.dll
 C:\Work\BackEnd\APICore_Docker\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Work\git_new\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.deps.json
+C:\Work\git_new\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.dll
+C:\Work\git_new\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.csproj.CoreCompileInputs.cache
+C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.AssemblyInfoInputs.cache
+C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.AssemblyInfo.cs
+C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.dll
+C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.csprojAssemblyReference.cache

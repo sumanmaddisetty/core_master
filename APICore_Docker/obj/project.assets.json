@@ -2917,6 +2917,63 @@
           }
         }
       },
+      "Swashbuckle.AspNetCore/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "4.0.1",
+          "Swashbuckle.AspNetCore.SwaggerGen": "4.0.1",
+          "Swashbuckle.AspNetCore.SwaggerUI": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Routing": "2.0.0",
+          "Microsoft.AspNetCore.StaticFiles": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "2.0.0",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4382,8 +4439,9 @@
       },
       "Core_BAL/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Core_BALInterface": "1.0.0",
           "Core_DAL": "1.0.0",
           "Core_DomainModel": "1.0.0",
           "Newtonsoft.Json": "12.0.2",
@@ -4396,11 +4454,26 @@
           "bin/placeholder/Core_BAL.dll": {}
         }
       },
-      "Core_DAL/1.0.0": {
+      "Core_BALInterface/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Core_DomainModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Core_BALInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core_BALInterface.dll": {}
+        }
+      },
+      "Core_DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Core_DALInterface": "1.0.0",
           "Core_DomainModel": "1.0.0",
+          "Microsoft.AspNetCore.App": "2.1.0",
           "Newtonsoft.Json": "12.0.2",
           "Ninject": "3.3.4",
           "Npgsql": "4.0.7",
@@ -4412,6 +4485,19 @@
         },
         "runtime": {
           "bin/placeholder/Core_DAL.dll": {}
+        }
+      },
+      "Core_DALInterface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core_DomainModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Core_DALInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core_DALInterface.dll": {}
         }
       },
       "Core_DomainModel/1.0.0": {
@@ -7623,6 +7709,57 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Swashbuckle.AspNetCore/4.0.1": {
+      "sha512": "Zq6lkFieuFPNDwXwQ+e8i5zy2VMrexcRFU8mQORxqIc8r7Y+qKX63vg57yL1HeGCINHQGGzxGfw2rP63IeEqhg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.dll",
+        "swashbuckle.aspnetcore.4.0.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+      "sha512": "rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
+      "sha512": "ztAj0T1U+2AqQNA8b+nr8yVkDW9XzNaAfez6d1jO13sdn2A/JW5Syn9TThsakrHxYNLt6y6aQCXbyBfQXpcQwA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "swashbuckle.aspnetcore.swaggergen.4.0.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/4.0.1": {
+      "sha512": "d2U7NyV0e4UhyCzAVK9QHm0iz2QoVPUa9XzJ/Gr0rn/jBZWFpVLvigKv0vxFzO2E793sY605+4h885gvCdKSxQ==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.4.0.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -12033,10 +12170,20 @@
       "path": "../BALCore/Core_BAL.csproj",
       "msbuildProject": "../BALCore/Core_BAL.csproj"
     },
+    "Core_BALInterface/1.0.0": {
+      "type": "project",
+      "path": "../BALInterfaceCore/Core_BALInterface.csproj",
+      "msbuildProject": "../BALInterfaceCore/Core_BALInterface.csproj"
+    },
     "Core_DAL/1.0.0": {
       "type": "project",
       "path": "../Core_DAL/Core_DAL.csproj",
       "msbuildProject": "../Core_DAL/Core_DAL.csproj"
+    },
+    "Core_DALInterface/1.0.0": {
+      "type": "project",
+      "path": "../Core_DALInterface/Core_DALInterface.csproj",
+      "msbuildProject": "../Core_DALInterface/Core_DALInterface.csproj"
     },
     "Core_DomainModel/1.0.0": {
       "type": "project",
@@ -12047,6 +12194,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Core_BAL >= 1.0.0",
+      "Core_DAL >= 1.0.0",
+      "Core_DALInterface >= 1.0.0",
       "Core_DomainModel >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -12054,27 +12203,28 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.7.9",
       "Newtonsoft.Json >= 12.0.2",
       "Ninject >= 3.3.4",
-      "Npgsql >= 4.0.7"
+      "Npgsql >= 4.0.7",
+      "Swashbuckle.AspNetCore >= 4.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\suman\\.nuget\\packages\\": {},
+    "C:\\Users\\gopinagaraju\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Gopi\\APICore_Docker\\APICore_Docker\\Core_APIService.csproj",
+      "projectUniqueName": "C:\\Work\\git_new\\APICore_Docker\\Core_APIService.csproj",
       "projectName": "Core_APIService",
-      "projectPath": "Z:\\Gopi\\APICore_Docker\\APICore_Docker\\Core_APIService.csproj",
-      "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-      "outputPath": "Z:\\Gopi\\APICore_Docker\\APICore_Docker\\obj\\",
+      "projectPath": "C:\\Work\\git_new\\APICore_Docker\\Core_APIService.csproj",
+      "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\git_new\\APICore_Docker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12087,11 +12237,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "Z:\\Gopi\\APICore_Docker\\BALCore\\Core_BAL.csproj": {
-              "projectPath": "Z:\\Gopi\\APICore_Docker\\BALCore\\Core_BAL.csproj"
+            "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj": {
+              "projectPath": "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj"
             },
-            "Z:\\Gopi\\APICore_Docker\\Core_DomainModel\\Core_DomainModel.csproj": {
-              "projectPath": "Z:\\Gopi\\APICore_Docker\\Core_DomainModel\\Core_DomainModel.csproj"
+            "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj": {
+              "projectPath": "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj"
+            },
+            "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj": {
+              "projectPath": "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj"
+            },
+            "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
+              "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj"
             }
           }
         }
@@ -12137,6 +12293,10 @@
           "Npgsql": {
             "target": "Package",
             "version": "[4.0.7, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[4.0.1, )"
           }
         },
         "imports": [

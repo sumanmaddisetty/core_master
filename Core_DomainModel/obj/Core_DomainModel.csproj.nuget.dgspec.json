@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Gopi\\APICore_Docker\\Core_DomainModel\\Core_DomainModel.csproj": {}
+    "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {}
   },
   "projects": {
-    "Z:\\Gopi\\APICore_Docker\\Core_DomainModel\\Core_DomainModel.csproj": {
+    "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Gopi\\APICore_Docker\\Core_DomainModel\\Core_DomainModel.csproj",
+        "projectUniqueName": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj",
         "projectName": "Core_DomainModel",
-        "projectPath": "Z:\\Gopi\\APICore_Docker\\Core_DomainModel\\Core_DomainModel.csproj",
-        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-        "outputPath": "Z:\\Gopi\\APICore_Docker\\Core_DomainModel\\obj\\",
+        "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj",
+        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\git_new\\Core_DomainModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

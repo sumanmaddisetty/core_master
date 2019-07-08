@@ -6,3 +6,15 @@ C:\Work\BackEnd\APICore_Docker\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BA
 C:\Work\BackEnd\APICore_Docker\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.AssemblyInfo.cs
 C:\Work\BackEnd\APICore_Docker\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.dll
 C:\Work\BackEnd\APICore_Docker\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.pdb
+C:\Work\git_new\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.deps.json
+C:\Work\git_new\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.dll
+C:\Work\git_new\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.pdb
+C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csprojAssemblyReference.cache
+C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CoreCompileInputs.cache
+C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.AssemblyInfoInputs.cache
+C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.AssemblyInfo.cs
+C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.dll
+C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.pdb
+C:\Work\git_new\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.dll
+C:\Work\git_new\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CopyComplete

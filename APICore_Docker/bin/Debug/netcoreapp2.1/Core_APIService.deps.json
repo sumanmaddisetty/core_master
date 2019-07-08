@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "3d791113be90109c5a3df4acef946ddd29b06c49"
+    "signature": "3e87f3446df8976609a78f6f386ebb53d2b71b29"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,8 @@
       "Core_APIService/1.0.0": {
         "dependencies": {
           "Core_BAL": "1.0.0",
+          "Core_DAL": "1.0.0",
+          "Core_DALInterface": "1.0.0",
           "Core_DomainModel": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -32,7 +34,8 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.7.9",
           "Newtonsoft.Json": "12.0.2",
           "Ninject": "3.3.4",
-          "Npgsql": "4.0.7"
+          "Npgsql": "4.0.7",
+          "Swashbuckle.AspNetCore": "4.0.1"
         },
         "runtime": {
           "Core_APIService.dll": {}
@@ -102,6 +105,71 @@
           "lib/netstandard2.0/PetaPoco.dll": {}
         }
       },
+      "Swashbuckle.AspNetCore/4.0.1": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "4.0.1",
+          "Swashbuckle.AspNetCore.SwaggerGen": "4.0.1",
+          "Swashbuckle.AspNetCore.SwaggerUI": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.1.1",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "2.1.1",
+          "Microsoft.AspNetCore.Mvc.Core": "2.1.1",
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.1.1",
+          "Swashbuckle.AspNetCore.Swagger": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/4.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Routing": "2.1.1",
+          "Microsoft.AspNetCore.StaticFiles": "2.1.1",
+          "Microsoft.Extensions.FileProviders.Embedded": "2.1.1",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "runtime": {
@@ -118,6 +186,7 @@
       "System.ValueTuple/4.5.0": {},
       "Core_BAL/1.0.0": {
         "dependencies": {
+          "Core_BALInterface": "1.0.0",
           "Core_DAL": "1.0.0",
           "Core_DomainModel": "1.0.0",
           "Newtonsoft.Json": "12.0.2",
@@ -130,9 +199,22 @@
           "Core_BAL.dll": {}
         }
       },
+      "Core_BALInterface/1.0.0": {
+        "dependencies": {
+          "Core_DomainModel": "1.0.0"
+        },
+        "runtime": {
+          "Core_BALInterface.dll": {}
+        },
+        "compile": {
+          "Core_BALInterface.dll": {}
+        }
+      },
       "Core_DAL/1.0.0": {
         "dependencies": {
+          "Core_DALInterface": "1.0.0",
           "Core_DomainModel": "1.0.0",
+          "Microsoft.AspNetCore.App": "2.1.1",
           "Newtonsoft.Json": "12.0.2",
           "Ninject": "3.3.4",
           "Npgsql": "4.0.7",
@@ -144,6 +226,17 @@
         },
         "compile": {
           "Core_DAL.dll": {}
+        }
+      },
+      "Core_DALInterface/1.0.0": {
+        "dependencies": {
+          "Core_DomainModel": "1.0.0"
+        },
+        "runtime": {
+          "Core_DALInterface.dll": {}
+        },
+        "compile": {
+          "Core_DALInterface.dll": {}
         }
       },
       "Core_DomainModel/1.0.0": {
@@ -3309,6 +3402,34 @@
       "path": "petapoco.compiled/6.0.415",
       "hashPath": "petapoco.compiled.6.0.415.nupkg.sha512"
     },
+    "Swashbuckle.AspNetCore/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zq6lkFieuFPNDwXwQ+e8i5zy2VMrexcRFU8mQORxqIc8r7Y+qKX63vg57yL1HeGCINHQGGzxGfw2rP63IeEqhg==",
+      "path": "swashbuckle.aspnetcore/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.4.0.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
+      "path": "swashbuckle.aspnetcore.swagger/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztAj0T1U+2AqQNA8b+nr8yVkDW9XzNaAfez6d1jO13sdn2A/JW5Syn9TThsakrHxYNLt6y6aQCXbyBfQXpcQwA==",
+      "path": "swashbuckle.aspnetcore.swaggergen/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.4.0.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d2U7NyV0e4UhyCzAVK9QHm0iz2QoVPUa9XzJ/Gr0rn/jBZWFpVLvigKv0vxFzO2E793sY605+4h885gvCdKSxQ==",
+      "path": "swashbuckle.aspnetcore.swaggerui/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.4.0.1.nupkg.sha512"
+    },
     "System.Memory/4.5.3": {
       "type": "package",
       "serviceable": true,
@@ -3342,7 +3463,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Core_BALInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Core_DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core_DALInterface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

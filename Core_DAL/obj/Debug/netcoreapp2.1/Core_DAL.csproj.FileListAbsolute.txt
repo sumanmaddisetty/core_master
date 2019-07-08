@@ -1,0 +1,16 @@
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DAL.deps.json
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DAL.dll
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DAL.pdb
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DomainModel.dll
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DomainModel.pdb
+C:\Work\git_new\Core_DAL\obj\Debug\netcoreapp2.1\Core_DAL.csprojAssemblyReference.cache
+C:\Work\git_new\Core_DAL\obj\Debug\netcoreapp2.1\Core_DAL.csproj.CoreCompileInputs.cache
+C:\Work\git_new\Core_DAL\obj\Debug\netcoreapp2.1\Core_DAL.AssemblyInfoInputs.cache
+C:\Work\git_new\Core_DAL\obj\Debug\netcoreapp2.1\Core_DAL.AssemblyInfo.cs
+C:\Work\git_new\Core_DAL\obj\Debug\netcoreapp2.1\Core_DAL.csproj.CopyComplete
+C:\Work\git_new\Core_DAL\obj\Debug\netcoreapp2.1\Core_DAL.dll
+C:\Work\git_new\Core_DAL\obj\Debug\netcoreapp2.1\Core_DAL.pdb
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DAL.runtimeconfig.json
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DAL.runtimeconfig.dev.json
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DALInterface.dll
+C:\Work\git_new\Core_DAL\bin\Debug\netcoreapp2.1\Core_DALInterface.pdb

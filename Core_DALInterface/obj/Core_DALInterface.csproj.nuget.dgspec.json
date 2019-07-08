@@ -1,23 +1,79 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Gopi\\APICore_Docker\\Core_DALInterface\\Core_DALInterface.csproj": {}
+    "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj": {}
   },
   "projects": {
-    "Z:\\Gopi\\APICore_Docker\\Core_DALInterface\\Core_DALInterface.csproj": {
+    "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Gopi\\APICore_Docker\\Core_DALInterface\\Core_DALInterface.csproj",
+        "projectUniqueName": "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj",
         "projectName": "Core_DALInterface",
-        "projectPath": "Z:\\Gopi\\APICore_Docker\\Core_DALInterface\\Core_DALInterface.csproj",
-        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-        "outputPath": "Z:\\Gopi\\APICore_Docker\\Core_DALInterface\\obj\\",
+        "projectPath": "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj",
+        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\git_new\\Core_DALInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
+                "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj",
+        "projectName": "Core_DomainModel",
+        "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj",
+        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\git_new\\Core_DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +102,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             }
           },
           "imports": [

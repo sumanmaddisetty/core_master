@@ -1,15 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using Core_DAL;
+using Core_DALInterface;
 using Core_DomainModel;
+using Core_BALInterfaceCore;
+//using Core
 
 namespace Core_BAL
 {
-    
-    public class UserBAL
+
+    public class UserBAL: IUserBAL
     {
-      
-        UserDAL userDAL = new UserDAL();
+
+        private IUserDAL userDAL;
+        public UserBAL(IUserDAL userDAL) {
+            this.userDAL = userDAL;
+            }
         public List<User> GetUsers()
         {
             return userDAL.GetUsers();
