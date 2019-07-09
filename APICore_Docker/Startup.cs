@@ -1,4 +1,6 @@
-﻿using Core_DomainModel;
+﻿using Core_APIService.Helpers;
+using Core_DomainModel;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -20,9 +22,12 @@ namespace Core_APIService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddMvc(config =>
+            {
+                config.Filters.Add(typeof(ExceptionHandler));
+            }).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             #region Swagger Generation
             services.AddSwaggerGen(s => { s.SwaggerDoc("v1", new Info { Title = "Core API", Description = "Core API Swagger Integration" }); });
@@ -36,6 +41,11 @@ namespace Core_APIService
             DALDependnecies.RegisterDALDependnecies(services);
             BALDependnecies.RegisterBALDependnecies(services);
             #endregion
+
+            services.AddAuthentication("BasicAuthentication")
+            .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+
+
 
         }
 
@@ -52,6 +62,7 @@ namespace Core_APIService
             }
 
             app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseMvc();
 
             #region Swagger UI Integration

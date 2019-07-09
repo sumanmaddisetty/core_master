@@ -26,3 +26,17 @@ C:\Work\git_new\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.AssemblyInfo
 C:\Work\git_new\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.dll
 C:\Work\git_new\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.pdb
 C:\Work\git_new\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.csprojAssemblyReference.cache
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\Core_NUnit.deps.json
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\Core_NUnit.runtimeconfig.json
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\Core_NUnit.runtimeconfig.dev.json
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\Core_NUnit.dll
+D:\Trainings\git_core\NUnitCore_Docker\bin\Debug\netcoreapp2.2\Core_NUnit.pdb
+D:\Trainings\git_core\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.csprojAssemblyReference.cache
+D:\Trainings\git_core\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.csproj.CoreCompileInputs.cache
+D:\Trainings\git_core\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.AssemblyInfoInputs.cache
+D:\Trainings\git_core\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.AssemblyInfo.cs
+D:\Trainings\git_core\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.dll
+D:\Trainings\git_core\NUnitCore_Docker\obj\Debug\netcoreapp2.2\Core_NUnit.pdb

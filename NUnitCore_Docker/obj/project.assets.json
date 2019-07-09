@@ -5541,23 +5541,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gopinagaraju\\.nuget\\packages\\": {},
+    "C:\\Users\\suman\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\git_new\\NUnitCore_Docker\\Core_NUnit.csproj",
+      "projectUniqueName": "D:\\Trainings\\git_core\\NUnitCore_Docker\\Core_NUnit.csproj",
       "projectName": "Core_NUnit",
-      "projectPath": "C:\\Work\\git_new\\NUnitCore_Docker\\Core_NUnit.csproj",
-      "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\git_new\\NUnitCore_Docker\\obj\\",
+      "projectPath": "D:\\Trainings\\git_core\\NUnitCore_Docker\\Core_NUnit.csproj",
+      "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+      "outputPath": "D:\\Trainings\\git_core\\NUnitCore_Docker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

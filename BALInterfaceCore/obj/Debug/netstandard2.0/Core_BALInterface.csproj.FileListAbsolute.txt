@@ -18,3 +18,15 @@ C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.pdb
 C:\Work\git_new\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.dll
 C:\Work\git_new\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.pdb
 C:\Work\git_new\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CopyComplete
+D:\Trainings\git_core\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.deps.json
+D:\Trainings\git_core\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.dll
+D:\Trainings\git_core\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.pdb
+D:\Trainings\git_core\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.dll
+D:\Trainings\git_core\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.pdb
+D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csprojAssemblyReference.cache
+D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CoreCompileInputs.cache
+D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.AssemblyInfoInputs.cache
+D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.AssemblyInfo.cs
+D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CopyComplete
+D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.dll
+D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.pdb

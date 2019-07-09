@@ -15,3 +15,12 @@ C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.Assem
 C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.dll
 C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.pdb
 C:\Work\git_new\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.csprojAssemblyReference.cache
+D:\Trainings\git_core\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.deps.json
+D:\Trainings\git_core\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.dll
+D:\Trainings\git_core\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.pdb
+D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.csprojAssemblyReference.cache
+D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.csproj.CoreCompileInputs.cache
+D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.AssemblyInfoInputs.cache
+D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.AssemblyInfo.cs
+D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.dll
+D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.pdb

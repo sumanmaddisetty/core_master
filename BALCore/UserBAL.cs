@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Core_DALInterface;
 using Core_DomainModel;
 using Core_BALInterfaceCore;
+using System.Threading.Tasks;
 //using Core
 
 namespace Core_BAL
@@ -20,5 +21,11 @@ namespace Core_BAL
             return userDAL.GetUsers();
         }
 
+        public Task<User> Authenticate()
+        {
+            User user;
+            user = new User { UserId = 1, UserName="Suman" };
+            return Task.FromResult<User>(user);
+        }
     }
 }

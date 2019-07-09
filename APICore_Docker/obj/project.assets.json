@@ -12208,23 +12208,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gopinagaraju\\.nuget\\packages\\": {},
+    "C:\\Users\\suman\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\git_new\\APICore_Docker\\Core_APIService.csproj",
+      "projectUniqueName": "D:\\Trainings\\git_core\\APICore_Docker\\Core_APIService.csproj",
       "projectName": "Core_APIService",
-      "projectPath": "C:\\Work\\git_new\\APICore_Docker\\Core_APIService.csproj",
-      "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\git_new\\APICore_Docker\\obj\\",
+      "projectPath": "D:\\Trainings\\git_core\\APICore_Docker\\Core_APIService.csproj",
+      "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+      "outputPath": "D:\\Trainings\\git_core\\APICore_Docker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12237,17 +12237,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj": {
-              "projectPath": "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj"
+            "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj": {
+              "projectPath": "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj"
             },
-            "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj": {
-              "projectPath": "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj"
+            "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj": {
+              "projectPath": "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj"
             },
-            "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj": {
-              "projectPath": "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj"
+            "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj": {
+              "projectPath": "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj"
             },
-            "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
-              "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj"
+            "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj": {
+              "projectPath": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj"
             }
           }
         }

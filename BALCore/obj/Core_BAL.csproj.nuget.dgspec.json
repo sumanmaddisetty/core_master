@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj": {}
+    "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj": {}
   },
   "projects": {
-    "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj": {
+    "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj",
+        "projectUniqueName": "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj",
         "projectName": "Core_BAL",
-        "projectPath": "C:\\Work\\git_new\\BALCore\\Core_BAL.csproj",
-        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\git_new\\BALCore\\obj\\",
+        "projectPath": "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj",
+        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+        "outputPath": "D:\\Trainings\\git_core\\BALCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,14 +30,14 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Work\\git_new\\BALInterfaceCore\\Core_BALInterface.csproj": {
-                "projectPath": "C:\\Work\\git_new\\BALInterfaceCore\\Core_BALInterface.csproj"
+              "D:\\Trainings\\git_core\\BALInterfaceCore\\Core_BALInterface.csproj": {
+                "projectPath": "D:\\Trainings\\git_core\\BALInterfaceCore\\Core_BALInterface.csproj"
               },
-              "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj": {
-                "projectPath": "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj"
+              "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj": {
+                "projectPath": "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj"
               },
-              "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
-                "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj"
+              "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj": {
+                "projectPath": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj"
               }
             }
           }
@@ -74,20 +74,20 @@
         }
       }
     },
-    "C:\\Work\\git_new\\BALInterfaceCore\\Core_BALInterface.csproj": {
+    "D:\\Trainings\\git_core\\BALInterfaceCore\\Core_BALInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\git_new\\BALInterfaceCore\\Core_BALInterface.csproj",
+        "projectUniqueName": "D:\\Trainings\\git_core\\BALInterfaceCore\\Core_BALInterface.csproj",
         "projectName": "Core_BALInterface",
-        "projectPath": "C:\\Work\\git_new\\BALInterfaceCore\\Core_BALInterface.csproj",
-        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\git_new\\BALInterfaceCore\\obj\\",
+        "projectPath": "D:\\Trainings\\git_core\\BALInterfaceCore\\Core_BALInterface.csproj",
+        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+        "outputPath": "D:\\Trainings\\git_core\\BALInterfaceCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +100,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
-                "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj"
+              "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj": {
+                "projectPath": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj"
               }
             }
           }
@@ -130,20 +130,20 @@
         }
       }
     },
-    "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj": {
+    "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj",
+        "projectUniqueName": "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj",
         "projectName": "Core_DALInterface",
-        "projectPath": "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj",
-        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\git_new\\Core_DALInterface\\obj\\",
+        "projectPath": "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj",
+        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+        "outputPath": "D:\\Trainings\\git_core\\Core_DALInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,8 +156,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
-                "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj"
+              "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj": {
+                "projectPath": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj"
               }
             }
           }
@@ -186,20 +186,20 @@
         }
       }
     },
-    "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj": {
+    "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj",
+        "projectUniqueName": "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj",
         "projectName": "Core_DAL",
-        "projectPath": "C:\\Work\\git_new\\Core_DAL\\Core_DAL.csproj",
-        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\git_new\\Core_DAL\\obj\\",
+        "projectPath": "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj",
+        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+        "outputPath": "D:\\Trainings\\git_core\\Core_DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,11 +212,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj": {
-                "projectPath": "C:\\Work\\git_new\\Core_DALInterface\\Core_DALInterface.csproj"
+              "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj": {
+                "projectPath": "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj"
               },
-              "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
-                "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj"
+              "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj": {
+                "projectPath": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj"
               }
             }
           }
@@ -269,20 +269,20 @@
         }
       }
     },
-    "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj": {
+    "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj",
+        "projectUniqueName": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj",
         "projectName": "Core_DomainModel",
-        "projectPath": "C:\\Work\\git_new\\Core_DomainModel\\Core_DomainModel.csproj",
-        "packagesPath": "C:\\Users\\gopinagaraju\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\git_new\\Core_DomainModel\\obj\\",
+        "projectPath": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj",
+        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+        "outputPath": "D:\\Trainings\\git_core\\Core_DomainModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gopinagaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
